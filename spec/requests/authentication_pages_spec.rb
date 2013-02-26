@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe "Authentication" do
+  let(:user) { FactoryGirl.create(:user) }
 
   subject { page }
 
